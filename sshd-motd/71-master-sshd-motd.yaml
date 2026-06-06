@@ -14,4 +14,4 @@ spec:
           mode: 0444
           overwrite: true
           contents:
-            source: http://rhgls.domain.example.com/ssh.motd
+            source: https://github.com/mcipamo/ssh-motd/blob/main/ssh.motd
