@@ -10,8 +10,8 @@ spec:
       version: 3.4.0
     storage:
       files:
-        - path: /etc/motd
+        - path: '/etc/motd'
           mode: 0444
           overwrite: true
           contents:
-            source: https://github.com/mcipamo/ssh-motd/blob/main/ssh.motd
+            source: https://raw.githubusercontent.com/mcipamo/ssh-motd/main/ssh.motd
